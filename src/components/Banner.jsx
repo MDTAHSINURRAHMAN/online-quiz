@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import banner from "../assets/banner.jpg";
+import QuizModal from "./QuizModal";
 
 const Banner = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => setIsModalOpen(true);
+  const handleCloseModal = () => setIsModalOpen(false);
+
   return (
     <div className="py-8 md:py-12 lg:py-16 bg-gray-50">
       <div className="container mx-auto px-4 lg:px-12">
@@ -14,7 +20,7 @@ const Banner = () => {
               Challenge yourself with our exciting quiz games! Test your knowledge
               across various topics and compete with others.
             </p>
-            <button className="inline-flex items-center justify-center px-6 py-3 text-base md:text-lg font-semibold text-hair-color bg-white hover:bg-hair-color hover:text-white transition-colors duration-300 rounded-full shadow-md hover:shadow-lg">
+            <button onClick={handleOpenModal} className="inline-flex items-center justify-center px-6 py-3 text-base md:text-lg font-semibold text-hair-color bg-white hover:bg-hair-color hover:text-white transition-colors duration-300 rounded-full shadow-md hover:shadow-lg">
               Play Quiz
             </button>
           </div>
@@ -29,6 +35,8 @@ const Banner = () => {
           </div>
         </div>
       </div>
+
+      {isModalOpen && <QuizModal isOpen={isModalOpen} onClose={handleCloseModal} />}
     </div>
   );
 };

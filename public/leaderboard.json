@@ -1,0 +1,73 @@
+[
+    {
+      "_id": "1",
+      "name": "Alice Johnson",
+      "image": "https://randomuser.me/api/portraits/women/1.jpg",
+      "score": 950,
+      "rank": 1
+    },
+    {
+      "_id": "2",
+      "name": "Bob Smith",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg",
+      "score": 920,
+      "rank": 2
+    },
+    {
+      "_id": "3",
+      "name": "Charlie Brown",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "score": 890,
+      "rank": 3
+    },
+    {
+      "_id": "4",
+      "name": "Diana Prince",
+      "image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "score": 870,
+      "rank": 4
+    },
+    {
+      "_id": "5",
+      "name": "Evan Davis",
+      "image": "https://randomuser.me/api/portraits/men/5.jpg",
+      "score": 850,
+      "rank": 5
+    },
+    {
+      "_id": "6",
+      "name": "Fiona Adams",
+      "image": "https://randomuser.me/api/portraits/women/6.jpg",
+      "score": 830,
+      "rank": 6
+    },
+    {
+      "_id": "7",
+      "name": "George Wilson",
+      "image": "https://randomuser.me/api/portraits/men/7.jpg",
+      "score": 800,
+      "rank": 7
+    },
+    {
+      "_id": "8",
+      "name": "Hannah Lee",
+      "image": "https://randomuser.me/api/portraits/women/8.jpg",
+      "score": 780,
+      "rank": 8
+    },
+    {
+      "_id": "9",
+      "name": "Ian Wright",
+      "image": "https://randomuser.me/api/portraits/men/9.jpg",
+      "score": 760,
+      "rank": 9
+    },
+    {
+      "_id": "10",
+      "name": "Julia Roberts",
+      "image": "https://randomuser.me/api/portraits/women/10.jpg",
+      "score": 740,
+      "rank": 10
+    }
+  ]
+  

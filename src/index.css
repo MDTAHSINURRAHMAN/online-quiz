@@ -17,3 +17,9 @@ body{
     height: 90vh;
     border-radius: 10px;
 }
+
+.___ {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+  }

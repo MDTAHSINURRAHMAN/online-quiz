@@ -5,23 +5,26 @@
       "options": ["Paris", "Rome", "Madrid", "Berlin"],
       "answer": "Paris",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "multiple-choice"
     },
     {
       "_id": "q2",
-      "question": "Which planet is known as the Red Planet?",
+      "question": "___  is known as the Red Planet?",
       "options": ["Earth", "Mars", "Jupiter", "Venus"],
       "answer": "Mars",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "text"
     },
     {
       "_id": "q3",
-      "question": "What is the chemical symbol for water?",
+      "question": "___  is the chemical symbol for water?",
       "options": ["H2O", "O2", "CO2", "NaCl"],
       "answer": "H2O",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "text"
     },
     {
       "_id": "q4",
@@ -29,23 +32,26 @@
       "options": ["William Shakespeare", "Charles Dickens", "Leo Tolstoy", "Mark Twain"],
       "answer": "William Shakespeare",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "multiple-choice"
     },
     {
       "_id": "q5",
-      "question": "Which element has the atomic number 6?",
+      "question": "___  has the atomic number 6?",
       "options": ["Carbon", "Oxygen", "Nitrogen", "Helium"],
       "answer": "Carbon",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "text"
     },
     {
       "_id": "q6",
-      "question": "What is the largest ocean on Earth?",
+      "question": "___  Ocean is the largest ocean on Earth?",
       "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
-      "answer": "Pacific Ocean",
+      "answer": "Pacific",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "text"
     },
     {
       "_id": "q7",
@@ -53,15 +59,17 @@
       "options": ["China", "Brazil", "UK", "Russia"],
       "answer": "Brazil",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "multiple-choice"
     },
     {
       "_id": "q8",
-      "question": "What is the square root of 144?",
+      "question": "___  is the square root of 144?",
       "options": ["10", "12", "14", "16"],
       "answer": "12",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "text"
     },
     {
       "_id": "q9",
@@ -69,7 +77,8 @@
       "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
       "answer": "Albert Einstein",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "multiple-choice"
     },
     {
       "_id": "q10",
@@ -77,7 +86,8 @@
       "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
       "answer": "Nitrogen",
       "marks": 1,
-      "category": "easy"
+      "category": "easy",
+      "type": "multiple-choice"
     }
   ]
   

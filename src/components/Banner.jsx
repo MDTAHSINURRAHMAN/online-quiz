@@ -13,7 +13,7 @@ const Banner = () => {
       <div className="container mx-auto px-4 lg:px-12">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-hair-color leading-tight mb-4 md:mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-hair-color leading-tight mb-4 md:mb-6">
               Welcome to Quizora
             </h1>
             <p className="text-base md:text-lg text-gray-700 mb-6 md:mb-8 max-w-2xl">
